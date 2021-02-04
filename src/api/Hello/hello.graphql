@@ -1,0 +1,9 @@
+type ExampleResponse {
+  name: String
+  description: String
+}
+
+type Query {
+  hello: String!
+  example: ExampleResponse!
+}
